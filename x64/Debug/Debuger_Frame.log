@@ -1,0 +1,35 @@
+﻿  CMyDebug.cpp
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(43,6): error C2664: “BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)”: 无法将参数 1 从“const char *”转换为“LPCWSTR”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(44,3): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\processthreadsapi.h(372,1): message : 参见“CreateProcessW”的声明
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(75,60): warning C4311: “类型强制转换”: 从“LPTHREAD_START_ROUTINE”到“DWORD”的指针截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(75,60): warning C4302: “类型强制转换”: 从“LPTHREAD_START_ROUTINE”到“DWORD”截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(76,57): warning C4311: “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(76,57): warning C4302: “类型强制转换”: 从“LPVOID”到“DWORD”截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(77,64): warning C4311: “类型强制转换”: 从“HANDLE”到“DWORD”的指针截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(77,64): warning C4302: “类型强制转换”: 从“HANDLE”到“DWORD”截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(101,50): warning C4311: “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(101,50): warning C4302: “类型强制转换”: 从“LPVOID”到“DWORD”截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(107,69): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(107,61): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\memoryapi.h(152,1): message : 参见“ReadProcessMemory”的声明
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(108,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(108,87): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(108,79): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\memoryapi.h(152,1): message : 参见“ReadProcessMemory”的声明
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(118,59): warning C4311: “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(118,59): warning C4302: “类型强制转换”: 从“LPVOID”到“DWORD”截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(130,61): warning C4311: “类型强制转换”: 从“LPSTR”到“DWORD”的指针截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(130,61): warning C4302: “类型强制转换”: 从“LPSTR”到“DWORD”截断
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(137,50): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(137,72): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(137,68): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\memoryapi.h(152,1): message : 参见“ReadProcessMemory”的声明
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(144,50): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(144,72): error C2664: “BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)”: 无法将参数 5 从“DWORD *”转换为“SIZE_T *”
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(144,68): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\memoryapi.h(152,1): message : 参见“ReadProcessMemory”的声明
+E:\viusal studio document\科锐\调试器\Debuger_Frame\CMyDebug.cpp(198,50): error C2039: "Eip": 不是 "_CONTEXT" 的成员
+D:\Windows Kits\10\Include\10.0.22000.0\um\winnt.h(4203): message : 参见“_CONTEXT”的声明
+  debuger_frame.cpp
+  正在生成代码...
